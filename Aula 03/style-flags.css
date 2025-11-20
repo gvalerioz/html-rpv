@@ -2,7 +2,6 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    color: rgb(0, 0, 0);
     font-family: sans-serif;
 }
 
@@ -13,11 +12,12 @@ body{
     align-items: center;
     height: 100vh;
  }
-
+p {
+    color: rgb(201, 15, 15);
+}
  #flags {
     width: 100vw;
     height: 300px;
-    background-color: rgba(0, 1, 8, 0.664);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,10 +69,16 @@ body{
     display: flex;
     flex-direction: column;
 }
+.envolve-flags{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
 #h-black{
     width: 120px;
     height: 40px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 #h-red{
     width: 120px;
