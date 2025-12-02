@@ -5,15 +5,17 @@
     font-family: sans-serif;
 }
 
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(33, 34, 58);
     align-items: center;
     height: 100vh;
  }
 p {
-    color: rgb(201, 15, 15);
+    color: rgb(255, 255, 255);
 }
  #flags {
     width: 100vw;
