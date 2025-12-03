@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid red;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+section {
+    display: grid;
+    gap: 10px;
+    border: 3px solid red;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    min-height: 350px;
+ 
+    grid-template-areas: 
+    "box-one box-one box-two box-two";
+}
+
+.box {
+    width: 100px;
+    
+}
+.purple {
+    background-color: purple;
+}
+.green {
+    background-color: green;
+}
+
+
+
+#box-one {
+    grid-area: box-one;
+}
+
+#box-two {
+    grid-area: box-two;
+}
